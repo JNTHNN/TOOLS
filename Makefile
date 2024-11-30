@@ -20,7 +20,7 @@ DEP			:=	$(addprefix $(DEP_DIR), $(DEP_FILES))
 all: $(NAME)
 
 $(NAME): $(OBJ)
-		@echo CREATING #WHAT YOU WANT
+		@echo CREATING #WHAT YOU WANT#
 		@$(CPP) $(CPPFLAGS) -o $(NAME) $(OBJ)
 		@sleep 1
 		@tput cuu1 dl1
