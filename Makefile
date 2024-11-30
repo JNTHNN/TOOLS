@@ -3,7 +3,7 @@ NAME 		:= #NAME OF PROJECT/EXECUTABLE
 CPP 		:= c++
 CPPFLAGS	:= -Wall -Wextra -Werror -std=c++98 -MMD
 
-SRC_DIR		:=	./
+SRC_DIR		:=	sources/
 OBJ_DIR		:=	.obj/
 DEP_DIR		:=	.dep/
 INC_DIR		:=	includes/
