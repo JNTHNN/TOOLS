@@ -12,3 +12,8 @@ Checker les leaks sans devoir mettre `system("leaks leprogramme")`
 ```
 leaks --atExit -- ./leprogramme
 ```
+
+
+## Compiler avec le flag C++98
+
+Rajouter `-pedantic` -> `-pedantic -std=c++98`
