@@ -81,3 +81,11 @@ valgrind --leak-check=full \
     else
         std::cout << "\033[31mTest échoué : _target n'a pas été correctement assigné.\033[0m" << std::endl;
 ```
+
+### Script Base exo cpp
+
+Instructions pour utiliser le script :
+- Rendez le script exécutable avec la commande : ``` chmod +x create_project.sh ```
+- Exécutez le script en fournissant le nom du dossier principal comme argument : ``` ./create_project.sh ex00 ```
+  
+Cela créera le dossier ex00 avec les sous-dossiers includes, sources et un fichier Makefile pré-rempli.
